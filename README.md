@@ -11,10 +11,10 @@ The app exposes the following endpoint:
 
 Each player object contains the following fields:
 - `name` — Player's name
-- `imageName` — Local image file name
-- `pais` — Player's country
-- `paisimagen` — Country image name
-- `link` — GIF URL
+- `imageUrl` — URL of the player's image
+- `country` — Player's country
+- `countryFlagUrl` — URL of the player´s country flag
+- `gifUrl` — GIF URL
 
 ## How to Run the App
 ### Requirements
