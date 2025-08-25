@@ -7,7 +7,7 @@ This app provides information about professional tennis players, including their
 The app exposes the following endpoint:
 
 - `GET /players` — Returns a JSON array of player objects.
-- Example: [http://localhost:5000/players](http://localhost:5000/players) (for local testing)
+- Example: [http://localhost:5001/players](http://localhost:5001/players) (for local testing)
 
 Each player object contains the following fields:
 - `name` — Player's name
