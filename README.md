@@ -1,7 +1,7 @@
 # Players API
 
 ## What the App Does
-This app provides information about professional tennis players, including their name, country, profile image, and a link to a GIF representing them. The data is served as a JSON API that can be consumed by other applications, such as iOS apps.
+This app provides information about professional tennis players, including their name, country, profile image, and a GIF representing them. The data is served as a JSON API that can be consumed by other applications, such as iOS apps.
 
 ## API Endpoint
 The app exposes the following endpoint:
@@ -15,6 +15,18 @@ Each player object contains the following fields:
 - `country` — Player's country
 - `countryFlagUrl` — URL of the player´s country flag
 - `gifUrl` — GIF URL
+
+### Example Response
+```json
+[
+  {
+    "name": "Rafael Nadal",
+    "imageUrl": "https://example.com/nadal.jpg",
+    "country": "Spain",
+    "countryFlagUrl": "https://example.com/spain.png",
+    "gifUrl": "https://example.com/nadal.gif"
+  }
+]
 
 ## How to Run the App
 ### Requirements
